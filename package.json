@@ -1,0 +1,26 @@
+{
+  "name": "dev_nomad-1",
+  "version": "0.0.1",
+  "description": "Backend JavaScript SOLID Clean Architecture Engine Infraestruture",
+  "keywords": [
+    "turma12"
+  ],
+  "homepage": "https://github.com/YgorSilva-Git/dev_nomad#readme",
+  "bugs": {
+    "url": "https://github.com/YgorSilva-Git/dev_nomad/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YgorSilva-Git/dev_nomad.git"
+  },
+  "license": "MIT",
+  "author": "Ygor Gabriel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase": "^12.18.0"
+  }
+}
