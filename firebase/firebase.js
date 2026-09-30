@@ -2,13 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA8rcCnmJsVw2eMNC53p2oVE1dGEYm9Muc",
-  authDomain: "dev-nomad.firebaseapp.com",
-  projectId: "dev-nomad",
-  storageBucket: "dev-nomad.firebasestorage.app",
-  messagingSenderId: "724816279928",
-  appId: "1:724816279928:web:d39e8c89d8ba1e2102308d",
-  measurementId: "G-JB1VZTTTL9"
+  apiKey: "AIzaSyCmnVjY_Aa2pBOuBXt0nQ6CjT0A28zcmJ8",
+  authDomain: "dev-nomad-ygor.firebaseapp.com",
+  projectId: "dev-nomad-ygor",
+  storageBucket: "dev-nomad-ygor.firebasestorage.app",
+  messagingSenderId: "667911853105",
+  appId: "1:667911853105:web:ca8cbd73583806376f7110",
+  measurementId: "G-G3LS5ZPWDF"
 };
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+
+export const app = initializeApp(firebaseConfig);
+export const analytics = getAnalytics(app);

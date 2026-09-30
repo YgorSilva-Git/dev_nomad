@@ -1,16 +1,14 @@
 export class User {
-    constructor({ uid, email, password, displayName, 
-        photoURL, emailVerified, phoneNumber, 
-        disable, createdAt, updatedAt }) {
+    construture(uid, displayName, email, emailVerified, phoneNumber, photoURL, disabled, password, created, updated) {
         this.uid = uid
-        this.email = email
         this.displayName = displayName || ''
-        this.photoURL = photoURL || ''
-        this.password = password
+        this.email = email
         this.emailVerified = emailVerified || false
         this.phoneNumber = phoneNumber || ''
-        this.disable = disable || false
-        this.createdAt = createdAt || new Date()
-        this.updatedAt = updatedAt || new Date()
+        this.photoURL = photoURL || ''
+        this.disabled = disabled || false
+        this.password = password
+        this.created = created || new Date()
+        this.updated = updated || new Date()
     }
 }
