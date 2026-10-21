@@ -1,11 +1,12 @@
 import firebase from '../firebase/firebase'
 import {
     getAuth,
-    createUserWhithEmailAndPassword,
+    createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
-    authStateChanged,
+    onAuthStateChanged,
     signOut
 } from 'firebase/auth'
+import db from './conn'
 
 class AuthService {
     constructor() {
