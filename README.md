@@ -39,7 +39,7 @@ Através da camada de serviços (`authService.js`), já temos a base para:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/victoricoma/dev_nomad.git
+git clone https://github.com/YgorSilva-Git/dev_nomad.git
 
 # Acesse a pasta do projeto
 cd dev_nomad
